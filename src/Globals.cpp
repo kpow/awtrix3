@@ -14,7 +14,7 @@ char *getID()
     char *macStr = new char[24];
     snprintf(macStr, 24, "awtrix_%02x%02x%02x", mac[3], mac[4], mac[5]);
     if (DEBUG_MODE)
-        DEBUG_PRINTLN(F("Starting filesystem"));
+        DEBUG_PRINTLN(F("Starting filesystemz"));
     return macStr;
 }
 
